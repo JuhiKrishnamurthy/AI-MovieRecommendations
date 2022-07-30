@@ -1,7 +1,8 @@
 import sys
 import random
 import math
-from knn import *
+#from knn import *
+from fastknn import *
 
 def dist_eq(x,y):
 	sum_of_sq=0
