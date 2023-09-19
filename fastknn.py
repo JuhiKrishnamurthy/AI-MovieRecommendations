@@ -84,6 +84,7 @@ class Knn:
 			dpt=datapoint(cur_data,lbl,values,did)
 			self.add_training_data(dpt)
 		file.close()
+		print(len(self.fastnnhashdict))
 		return
 
 	def add_training_data(self,datapt):
